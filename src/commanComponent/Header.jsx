@@ -33,7 +33,6 @@ export default function Header() {
                    dark:hover:bg-green-700 dark:focus:ring-green-800 flex gap-[6px] ">
                     <BsCart3 className='text-[20px] font-bold' />Items
                 </button>
-
             </div>
         </header>
     )
