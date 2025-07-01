@@ -1,0 +1,26 @@
+.slick-prev, .slick-next {
+    line-height: 1;
+    font-size: 30px !important;
+    background-color: rgb(229, 229, 229);
+    border-radius: 50% !important;
+    width: 20px !important;
+    height: 30px !important;
+    z-index: 2;
+}
+
+.slick-prev:before, .slick-next:before {
+    color: rgb(179, 179, 179) !important;
+    font: 50px !important;
+}
+
+.card{
+    height: 350px;
+}
+
+.Addbutton{
+    max-width: 60px !important;
+}
+
+.timer{
+    max-width: 20px !important;
+}
