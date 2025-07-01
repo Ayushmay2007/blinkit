@@ -7,6 +7,7 @@ import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import Header from './commanComponent/Header'
+import paanImage from "./assets/image/imgi_5_paan-corner_web.png"
 import bannerImage from "./assets/image/Group-33704.webp"
 import { Link } from 'react-router-dom'
 
@@ -78,7 +79,7 @@ function App() {
 
       <section className='max-w-[1200px] mx-auto '>
         <div className="grid lg:grid-cols-10">
-          <img src={imgi_5_paan-corner_web.png} />
+          <img src={paanImage} />
           <Link to={"/dairy"}><img src="../public/Newimages/imgi_6_Slice-2_10.png" /></Link>
           <img src="../public/Newimages/imgi_7_Slice-3_9.png" />
           <img src="../public/Newimages/imgi_8_Slice-4_9.png" />
